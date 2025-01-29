@@ -1,0 +1,88 @@
+body{
+    background-color: black;
+    color:white;
+}
+.container{
+  position: relative;
+  left:30vw;
+  display:grid;
+  grid-template-columns: 100px 100px 100px;
+  gap:150px;
+  margin:20px;
+}
+.image{
+  
+    background: transparent;
+  border-radius: 350px; 
+  border-bottom: 20em; 
+  border-top:100em;
+  padding: 50px;
+  height:120px;
+  width:
+  120px;
+
+}
+.js-choice{
+
+font-size:35px;
+position: relative;
+    left:35%;
+    margin-bottom: 20px;
+
+}
+
+  .js-result{
+    font-size:35px;
+    position: relative;
+    left:30%;
+  }
+  .js-score{
+    display:inline;
+    background: linear-gradient(to bottom, black, blue);
+    font-size:35px;
+    position: relative;
+    left:30%;
+  }
+  .button{
+    border-color: dark black;
+    border-radius:300px;
+    width:220px;
+    border-left:100px;
+    margin-right: 50px;
+    position: relative;
+    left:30%;
+
+  }
+  .button2{
+    color: white;
+    display: block;
+    background: linear-gradient(to bottom,red,grey);
+    width:200px;
+    height:25px;
+   border-radius:100px ;
+   font-size:20px;
+   margin-top: 20px;
+   padding-top:9px;
+   padding-bottom: 30px;
+   position: relative;
+    left:30%;
+
+   
+  }
+  p{
+    font-size:35px;
+    position: relative;
+    left:30%;
+  }
+  .images{
+    
+    background: transparent;
+  border-radius: 350px; 
+  border-bottom: 20em; 
+  border-top:100em;
+  padding: 50px;
+  height:120px;
+  width:
+  120px;
+  border:2px solid green;
+  }

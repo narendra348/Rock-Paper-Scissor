@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Document</title>
+            <link rel="stylesheet" href="style.css">
+        </head>
+        <body>
+            <p>Rock Paper Scissor</p>
+            <div class="container">
+            <button class="button"
+        onclick="
+            Result('Rock');
+       
+        "   ><img  class="image" src="rock-emoji.png" alt="ravatledhu"></button>
+        <button class="button"
+        onclick=" Result('Paper');
+
+        ">
+        <img  class="image" src="paper-emoji.png" alt="ravatledhu">
+        </button>
+        <button class="button" onclick=" Result('Scissors');
+  
+  "
+
+        ><img  class="image" src="scissors-emoji.png" alt="ravatledhu"></button>
+        </div>
+        <div class="js-choice"></div>
+        
+        <div class="js-result"></div>
+        <div class="js-score"></div>
+        <button class="button2
+        "
+        onclick="
+        score.Wins=0;
+        score.Losses=0;
+        score.Tie=0;
+        localStorage.removeItem('score');
+        updateScore();
+        "
+        
+        >Reset score</button>
+            <script src="move.js"></script>
+        </body>
+        </html>
+
+
+
